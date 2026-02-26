@@ -1,0 +1,318 @@
+{
+  "generated": "2026-02-26 22:17 UTC",
+  "description": "Spark raw parquet data coverage for BTC spot orderbooks",
+  "overlap_100_percent": {
+    "latest_start_pair": "coinbase-btcusd",
+    "latest_start_ts": "2026-02-24T20:56:59.356",
+    "earliest_end_pair": "coinbase-btcusd",
+    "earliest_end_ts": "2026-02-25T15:39:30.592",
+    "gap_free_recommended_start": "2026-02-24T00:00:00",
+    "note": "22.02 has ~23h gap (collector crash). Gap-free continuous data from 24.02 00:00 UTC."
+  },
+  "pair_start_times": [
+    {
+      "pair": "sol-usdt",
+      "first_data": "2026-02-20T03:11:24.118"
+    },
+    {
+      "pair": "kraken-btc",
+      "first_data": "2026-02-20T03:41:05.814"
+    },
+    {
+      "pair": "binance-btcusd",
+      "first_data": "2026-02-21T05:11:24.695"
+    },
+    {
+      "pair": "binance-btceur",
+      "first_data": "2026-02-21T05:11:25.730"
+    },
+    {
+      "pair": "binance-btcusdc",
+      "first_data": "2026-02-23T18:23:04.943"
+    },
+    {
+      "pair": "binance-btcfdusd",
+      "first_data": "2026-02-23T18:23:05.010"
+    },
+    {
+      "pair": "binance-btcusdt",
+      "first_data": "2026-02-23T18:23:05.026"
+    },
+    {
+      "pair": "coinbase-btcusd",
+      "first_data": "2026-02-24T20:56:59.356"
+    }
+  ],
+  "per_pair_details": {
+    "binance-btceur": {
+      "path": "/home/spark/orderbook-data/binance-btceur",
+      "total_rows": 216429,
+      "first_timestamp": "2026-02-21T05:11:25.730",
+      "last_timestamp": "2026-02-25T23:59:59.231",
+      "files_count": 5,
+      "files": [
+        {
+          "file": "2026-02-21.parquet",
+          "rows": 46614,
+          "start": "2026-02-21T05:11:25.730",
+          "end": "2026-02-21T23:59:59.529"
+        },
+        {
+          "file": "2026-02-22.parquet",
+          "rows": 2969,
+          "start": "2026-02-22T22:57:09.235",
+          "end": "2026-02-22T23:59:59.309"
+        },
+        {
+          "file": "2026-02-23.parquet",
+          "rows": 17010,
+          "start": "2026-02-23T18:23:05.017",
+          "end": "2026-02-23T23:59:59.636"
+        },
+        {
+          "file": "2026-02-24.parquet",
+          "rows": 74221,
+          "start": "2026-02-24T00:00:00.734",
+          "end": "2026-02-24T23:59:59.028"
+        },
+        {
+          "file": "2026-02-25.parquet",
+          "rows": 75615,
+          "start": "2026-02-25T00:00:00.228",
+          "end": "2026-02-25T23:59:59.231"
+        }
+      ]
+    },
+    "binance-btcusd": {
+      "path": "/home/spark/orderbook-data/binance-btcusd",
+      "total_rows": 164171,
+      "first_timestamp": "2026-02-21T05:11:24.695",
+      "last_timestamp": "2026-02-25T23:59:55.697",
+      "files_count": 5,
+      "files": [
+        {
+          "file": "2026-02-21.parquet",
+          "rows": 50167,
+          "start": "2026-02-21T05:11:24.695",
+          "end": "2026-02-21T23:59:59.595"
+        },
+        {
+          "file": "2026-02-22.parquet",
+          "rows": 1860,
+          "start": "2026-02-22T22:57:11.399",
+          "end": "2026-02-22T23:59:56.775"
+        },
+        {
+          "file": "2026-02-23.parquet",
+          "rows": 16192,
+          "start": "2026-02-23T18:23:04.983",
+          "end": "2026-02-23T23:59:56.100"
+        },
+        {
+          "file": "2026-02-24.parquet",
+          "rows": 42866,
+          "start": "2026-02-24T00:00:00.201",
+          "end": "2026-02-24T23:59:59.794"
+        },
+        {
+          "file": "2026-02-25.parquet",
+          "rows": 53086,
+          "start": "2026-02-25T00:00:00.894",
+          "end": "2026-02-25T23:59:55.697"
+        }
+      ]
+    },
+    "binance-btcusdt": {
+      "path": "/home/spark/orderbook-data/binance-btcusdt-spot",
+      "total_rows": 182804,
+      "first_timestamp": "2026-02-23T18:23:05.026",
+      "last_timestamp": "2026-02-25T23:59:59.240",
+      "files_count": 3,
+      "files": [
+        {
+          "file": "2026-02-23.parquet",
+          "rows": 19108,
+          "start": "2026-02-23T18:23:05.026",
+          "end": "2026-02-23T23:59:59.043"
+        },
+        {
+          "file": "2026-02-24.parquet",
+          "rows": 81829,
+          "start": "2026-02-24T00:00:00.043",
+          "end": "2026-02-24T23:59:59.635"
+        },
+        {
+          "file": "2026-02-25.parquet",
+          "rows": 81867,
+          "start": "2026-02-25T00:00:00.636",
+          "end": "2026-02-25T23:59:59.240"
+        }
+      ]
+    },
+    "binance-btcfdusd": {
+      "path": "/home/spark/orderbook-data/binance-btcfdusd-spot",
+      "total_rows": 179473,
+      "first_timestamp": "2026-02-23T18:23:05.010",
+      "last_timestamp": "2026-02-25T23:59:59.625",
+      "files_count": 3,
+      "files": [
+        {
+          "file": "2026-02-23.parquet",
+          "rows": 18744,
+          "start": "2026-02-23T18:23:05.010",
+          "end": "2026-02-23T23:59:59.529"
+        },
+        {
+          "file": "2026-02-24.parquet",
+          "rows": 80253,
+          "start": "2026-02-24T00:00:00.629",
+          "end": "2026-02-24T23:59:59.322"
+        },
+        {
+          "file": "2026-02-25.parquet",
+          "rows": 80476,
+          "start": "2026-02-25T00:00:00.421",
+          "end": "2026-02-25T23:59:59.625"
+        }
+      ]
+    },
+    "binance-btcusdc": {
+      "path": "/home/spark/orderbook-data/binance-btcusdc-spot",
+      "total_rows": 180489,
+      "first_timestamp": "2026-02-23T18:23:04.943",
+      "last_timestamp": "2026-02-25T23:59:59.058",
+      "files_count": 3,
+      "files": [
+        {
+          "file": "2026-02-23.parquet",
+          "rows": 18886,
+          "start": "2026-02-23T18:23:04.943",
+          "end": "2026-02-23T23:59:59.561"
+        },
+        {
+          "file": "2026-02-24.parquet",
+          "rows": 80706,
+          "start": "2026-02-24T00:00:00.563",
+          "end": "2026-02-24T23:59:59.855"
+        },
+        {
+          "file": "2026-02-25.parquet",
+          "rows": 80897,
+          "start": "2026-02-25T00:00:00.954",
+          "end": "2026-02-25T23:59:59.058"
+        }
+      ]
+    },
+    "kraken-btc": {
+      "path": "/home/spark/orderbook-data-kraken",
+      "total_rows": 663177,
+      "first_timestamp": "2026-02-20T03:41:05.814",
+      "last_timestamp": "2026-02-25T23:59:59.204",
+      "files_count": 6,
+      "files": [
+        {
+          "file": "2026-02-20.parquet",
+          "rows": 137141,
+          "start": "2026-02-20T03:41:05.814",
+          "end": "2026-02-20T23:59:59.498"
+        },
+        {
+          "file": "2026-02-21.parquet",
+          "rows": 152352,
+          "start": "2026-02-21T00:00:00.560",
+          "end": "2026-02-21T23:59:59.596"
+        },
+        {
+          "file": "2026-02-22.parquet",
+          "rows": 7027,
+          "start": "2026-02-22T22:56:59.397",
+          "end": "2026-02-22T23:59:58.760"
+        },
+        {
+          "file": "2026-02-23.parquet",
+          "rows": 38365,
+          "start": "2026-02-23T18:23:05.558",
+          "end": "2026-02-23T23:59:59.276"
+        },
+        {
+          "file": "2026-02-24.parquet",
+          "rows": 163504,
+          "start": "2026-02-24T00:00:00.289",
+          "end": "2026-02-24T23:59:59.850"
+        },
+        {
+          "file": "2026-02-25.parquet",
+          "rows": 164788,
+          "start": "2026-02-25T00:00:00.870",
+          "end": "2026-02-25T23:59:59.204"
+        }
+      ]
+    },
+    "sol-usdt": {
+      "path": "/home/spark/orderbook-data-sol",
+      "total_rows": 338055,
+      "first_timestamp": "2026-02-20T03:11:24.118",
+      "last_timestamp": "2026-02-25T23:59:59.371",
+      "files_count": 6,
+      "files": [
+        {
+          "file": "2026-02-20.parquet",
+          "rows": 70794,
+          "start": "2026-02-20T03:11:24.118",
+          "end": "2026-02-20T23:59:59.161"
+        },
+        {
+          "file": "2026-02-21.parquet",
+          "rows": 81539,
+          "start": "2026-02-21T00:00:00.164",
+          "end": "2026-02-21T23:59:59.401"
+        },
+        {
+          "file": "2026-02-22.parquet",
+          "rows": 3570,
+          "start": "2026-02-22T22:56:58.549",
+          "end": "2026-02-22T23:59:59.795"
+        },
+        {
+          "file": "2026-02-23.parquet",
+          "rows": 19024,
+          "start": "2026-02-23T18:23:04.773",
+          "end": "2026-02-23T23:59:59.152"
+        },
+        {
+          "file": "2026-02-24.parquet",
+          "rows": 81546,
+          "start": "2026-02-24T00:00:00.166",
+          "end": "2026-02-24T23:59:59.832"
+        },
+        {
+          "file": "2026-02-25.parquet",
+          "rows": 81582,
+          "start": "2026-02-25T00:00:00.887",
+          "end": "2026-02-25T23:59:59.371"
+        }
+      ]
+    },
+    "coinbase-btcusd": {
+      "path": "/home/spark/unified-collectors/data/coinbase-btcusd-orderbook",
+      "total_rows": 65149,
+      "first_timestamp": "2026-02-24T20:56:59.356",
+      "last_timestamp": "2026-02-25T15:39:30.592",
+      "files_count": 2,
+      "files": [
+        {
+          "file": "2026-02-24.parquet",
+          "rows": 10586,
+          "start": "2026-02-24T20:56:59.356",
+          "end": "2026-02-24T23:59:48.909"
+        },
+        {
+          "file": "2026-02-25.parquet",
+          "rows": 54563,
+          "start": "2026-02-24T23:59:49.950",
+          "end": "2026-02-25T15:39:30.592"
+        }
+      ]
+    }
+  }
+}

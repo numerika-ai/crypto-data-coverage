@@ -1,0 +1,221 @@
+{
+  "generated": "2026-02-26 22:18 UTC",
+  "window": {
+    "start": "2026-02-24T00:00:00",
+    "end": "2026-02-26T22:00:00"
+  },
+  "max_lag_tested": 60,
+  "pairs_analyzed": 21,
+  "results": [
+    {
+      "pair_a": "Binance_BTCUSDC",
+      "pair_b": "Binance_BTCUSDT",
+      "best_lag": 0,
+      "best_correlation": 0.628388,
+      "leader": "simultaneous",
+      "follower": "",
+      "lead_seconds": 0,
+      "zero_lag_correlation": 0.628388
+    },
+    {
+      "pair_a": "Binance_BTCFDUSD",
+      "pair_b": "Binance_BTCUSDT",
+      "best_lag": 0,
+      "best_correlation": 0.621601,
+      "leader": "simultaneous",
+      "follower": "",
+      "lead_seconds": 0,
+      "zero_lag_correlation": 0.621601
+    },
+    {
+      "pair_a": "Binance_BTCFDUSD",
+      "pair_b": "Binance_BTCUSDC",
+      "best_lag": 0,
+      "best_correlation": 0.617056,
+      "leader": "simultaneous",
+      "follower": "",
+      "lead_seconds": 0,
+      "zero_lag_correlation": 0.617056
+    },
+    {
+      "pair_a": "Binance_BTCEUR",
+      "pair_b": "Binance_BTCUSDC",
+      "best_lag": 0,
+      "best_correlation": 0.605938,
+      "leader": "simultaneous",
+      "follower": "",
+      "lead_seconds": 0,
+      "zero_lag_correlation": 0.605938
+    },
+    {
+      "pair_a": "Binance_BTCEUR",
+      "pair_b": "Binance_BTCFDUSD",
+      "best_lag": 0,
+      "best_correlation": 0.596526,
+      "leader": "simultaneous",
+      "follower": "",
+      "lead_seconds": 0,
+      "zero_lag_correlation": 0.596526
+    },
+    {
+      "pair_a": "Binance_BTCEUR",
+      "pair_b": "Binance_BTCUSDT",
+      "best_lag": 0,
+      "best_correlation": 0.586388,
+      "leader": "simultaneous",
+      "follower": "",
+      "lead_seconds": 0,
+      "zero_lag_correlation": 0.586388
+    },
+    {
+      "pair_a": "Binance_BTCUSD",
+      "pair_b": "Binance_BTCUSDT",
+      "best_lag": 0,
+      "best_correlation": 0.481701,
+      "leader": "simultaneous",
+      "follower": "",
+      "lead_seconds": 0,
+      "zero_lag_correlation": 0.481701
+    },
+    {
+      "pair_a": "Binance_BTCFDUSD",
+      "pair_b": "Binance_BTCUSD",
+      "best_lag": 0,
+      "best_correlation": 0.472622,
+      "leader": "simultaneous",
+      "follower": "",
+      "lead_seconds": 0,
+      "zero_lag_correlation": 0.472622
+    },
+    {
+      "pair_a": "Binance_BTCUSD",
+      "pair_b": "Binance_BTCUSDC",
+      "best_lag": 0,
+      "best_correlation": 0.45465,
+      "leader": "simultaneous",
+      "follower": "",
+      "lead_seconds": 0,
+      "zero_lag_correlation": 0.45465
+    },
+    {
+      "pair_a": "Kraken_BTCEUR",
+      "pair_b": "Kraken_BTCUSD",
+      "best_lag": -1,
+      "best_correlation": 0.449561,
+      "leader": "Kraken_BTCUSD",
+      "follower": "Kraken_BTCEUR",
+      "lead_seconds": 1,
+      "zero_lag_correlation": 0.135233
+    },
+    {
+      "pair_a": "Binance_BTCEUR",
+      "pair_b": "Binance_BTCUSD",
+      "best_lag": 0,
+      "best_correlation": 0.432548,
+      "leader": "simultaneous",
+      "follower": "",
+      "lead_seconds": 0,
+      "zero_lag_correlation": 0.432548
+    },
+    {
+      "pair_a": "Binance_BTCFDUSD",
+      "pair_b": "Kraken_BTCEUR",
+      "best_lag": 0,
+      "best_correlation": 0.145646,
+      "leader": "simultaneous",
+      "follower": "",
+      "lead_seconds": 0,
+      "zero_lag_correlation": 0.145646
+    },
+    {
+      "pair_a": "Binance_BTCUSDT",
+      "pair_b": "Kraken_BTCEUR",
+      "best_lag": 0,
+      "best_correlation": 0.141408,
+      "leader": "simultaneous",
+      "follower": "",
+      "lead_seconds": 0,
+      "zero_lag_correlation": 0.141408
+    },
+    {
+      "pair_a": "Binance_BTCUSDC",
+      "pair_b": "Kraken_BTCEUR",
+      "best_lag": 0,
+      "best_correlation": 0.139368,
+      "leader": "simultaneous",
+      "follower": "",
+      "lead_seconds": 0,
+      "zero_lag_correlation": 0.139368
+    },
+    {
+      "pair_a": "Binance_BTCEUR",
+      "pair_b": "Kraken_BTCEUR",
+      "best_lag": 0,
+      "best_correlation": 0.123535,
+      "leader": "simultaneous",
+      "follower": "",
+      "lead_seconds": 0,
+      "zero_lag_correlation": 0.123535
+    },
+    {
+      "pair_a": "Binance_BTCUSD",
+      "pair_b": "Kraken_BTCEUR",
+      "best_lag": 0,
+      "best_correlation": 0.11604,
+      "leader": "simultaneous",
+      "follower": "",
+      "lead_seconds": 0,
+      "zero_lag_correlation": 0.11604
+    },
+    {
+      "pair_a": "Binance_BTCFDUSD",
+      "pair_b": "Kraken_BTCUSD",
+      "best_lag": 0,
+      "best_correlation": 0.106828,
+      "leader": "simultaneous",
+      "follower": "",
+      "lead_seconds": 0,
+      "zero_lag_correlation": 0.106828
+    },
+    {
+      "pair_a": "Binance_BTCUSDT",
+      "pair_b": "Kraken_BTCUSD",
+      "best_lag": 0,
+      "best_correlation": 0.101701,
+      "leader": "simultaneous",
+      "follower": "",
+      "lead_seconds": 0,
+      "zero_lag_correlation": 0.101701
+    },
+    {
+      "pair_a": "Binance_BTCUSDC",
+      "pair_b": "Kraken_BTCUSD",
+      "best_lag": 0,
+      "best_correlation": 0.100715,
+      "leader": "simultaneous",
+      "follower": "",
+      "lead_seconds": 0,
+      "zero_lag_correlation": 0.100715
+    },
+    {
+      "pair_a": "Binance_BTCUSD",
+      "pair_b": "Kraken_BTCUSD",
+      "best_lag": 0,
+      "best_correlation": 0.089403,
+      "leader": "simultaneous",
+      "follower": "",
+      "lead_seconds": 0,
+      "zero_lag_correlation": 0.089403
+    },
+    {
+      "pair_a": "Binance_BTCEUR",
+      "pair_b": "Kraken_BTCUSD",
+      "best_lag": 0,
+      "best_correlation": 0.085583,
+      "leader": "simultaneous",
+      "follower": "",
+      "lead_seconds": 0,
+      "zero_lag_correlation": 0.085583
+    }
+  ]
+}
